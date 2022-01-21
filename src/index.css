@@ -1,0 +1,106 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family:sans-serif;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: darkgrey;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: grey;
+}
+
+#form{
+height: 40vh;
+display: grid;
+background-image: linear-gradient(rgb(157, 140, 236), white);
+}
+
+#input{
+border:none;
+justify-self: center;
+align-self:center;
+text-align: center;
+font-family:sans-serif;
+border-radius: 5px;
+width: 25vw;
+height: 10vh;
+outline: none;
+}
+
+
+#coinsArr{
+  width: 95vw;
+  margin: auto;
+  height: 90vh;
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+
+nav{
+  color: white;
+  font-size:23px;
+  background-color: rgb(93, 64, 224);
+  margin:auto;
+  margin-top: 3vh;
+  margin-bottom: 1vh;
+  display: grid;
+  grid-template-columns: 19vw repeat(5,1fr);
+  width: 95vw;
+}
+
+
+
+.coinContainer{
+  display: grid;
+  grid-template-columns: 19vw repeat(5,1fr);
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+  border-left: 5px solid rgb(168, 168, 168);
+  margin-bottom: 1vh;
+  height: 100px;
+  background-color: white;
+}
+
+img{
+  width: 24px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.coinElement{
+  align-self: center;;
+  justify-self: start;
+}
+
+.coinElement-smallerFont{
+font-size:small;
+}
+
+
+.navElement{
+  justify-self: start;
+  align-self: center;
+}
+
+.name{
+  padding-left: 34px;
+}
+.supply{
+  justify-self: end;
+}
+.totalVolume{
+  justify-self: end;
+  margin-right: 1vw;
+}
